@@ -24,10 +24,10 @@ export const QUESTIONS: Question[] = [
   {
     id: "l01",
     category: "line",
-    prompt: "這個同學會群組，現在的名字叫什麼？",
-    options: ["要運動歐", "建中校友會", "高三二班", "週日打球"],
-    correctIndex: 0,
-    explanation: "2024 年 12 月 9 日，Gary 把群名改成「要運動歐」，英仔、昌佑、Olding 立刻跟著複讀。",
+    prompt: "群名改成現在這個，是哪一年的 12 月？",
+    options: ["2022 年", "2023 年", "2024 年", "2025 年"],
+    correctIndex: 2,
+    explanation: "2024 年 12 月 9 日，Gary 先說「下次改說：要運動歐」，接著系統訊息就把群名改了。",
   },
   {
     id: "l02",
@@ -67,7 +67,7 @@ export const QUESTIONS: Question[] = [
     prompt: "「芋仔」是誰的綽號？",
     options: ["Leo", "Rory", "昌佑", "三少"],
     correctIndex: 0,
-    explanation: "Gary 會 @Leo 寫「芋仔心動不如行動」。代表符號還是一顆地瓜。",
+    explanation: "Gary 會 @Leo 寫「芋仔心動不如行動」。",
   },
   {
     id: "l07",
@@ -115,7 +115,7 @@ export const QUESTIONS: Question[] = [
     prompt: "被點名解惑、外號「光總」的是誰？",
     options: ["Gary", "陳 Charles Chen", "Alan Lan", "江慕行"],
     correctIndex: 1,
-    explanation: "黃以人、Jeff、黃謙都直接 @陳 Charles Chen 喊光總。他的符號是閃電。",
+    explanation: "黃以人、Jeff、黃謙都直接 @陳 Charles Chen 喊光總。",
   },
   {
     id: "l13",
@@ -192,10 +192,10 @@ export const QUESTIONS: Question[] = [
   {
     id: "l22",
     category: "line",
-    prompt: "英仔說從板橋、中山國中到建中都「無人不知無人不曉」的是誰？",
+    prompt: "英仔說從板橋國小、中山國中到建中，都「無人不知無人不曉」的是誰？",
     options: ["林志玲", "林襄", "林志修", "林昌勇"],
     correctIndex: 2,
-    explanation: "他每換一所學校就複讀一次。Leo 吐槽：你乾脆說他去哪裡都是這樣。",
+    explanation: "他每換一所學校就再講一次。Leo 吐槽：你乾脆說他去哪裡都是這樣。",
   },
   {
     id: "l23",
@@ -211,7 +211,7 @@ export const QUESTIONS: Question[] = [
     prompt: "Leo 說他只記得年底那場是哪一班的同學會？",
     options: ["301", "302", "303", "高一 2 班"],
     correctIndex: 1,
-    explanation: "他打的是：「我只記得年底是 302 同學會。」班碼後半段就是這一班。",
+    explanation: "他打的是：「我只記得年底是 302 同學會。」",
   },
   {
     id: "l25",
@@ -243,7 +243,7 @@ export const QUESTIONS: Question[] = [
     prompt: "院長英仔的代表符號是？",
     options: ["❤️", "🍠", "😷", "🐜"],
     correctIndex: 2,
-    explanation: "口罩幾乎是英仔的簽名。別跟 Alan 的紅心搞混。",
+    explanation: "口罩幾乎是英仔的簽名，他用這個開頭的次數最高。",
   },
   {
     id: "l29",
@@ -400,10 +400,10 @@ export const QUESTIONS: Question[] = [
   {
     id: "l48",
     category: "line",
-    prompt: "改名那天，英仔、昌佑、Olding 一起複製貼上的是哪四個字？",
-    options: ["開始熱身", "要運動歐", "星期三見", "今晚開打"],
-    correctIndex: 1,
-    explanation: "Gary 先喊，三人秒回，然後群名就定案了。",
+    prompt: "2024 年 12 月 9 日跟著把新群名打出來的，有英仔、昌佑，還有誰？",
+    options: ["Alan Lan", "Leo", "Olding", "三少"],
+    correctIndex: 2,
+    explanation: "Gary 先丟出那四個字。接著打出來的是英仔、昌佑、Olding，群名就定案。",
   },
   {
     id: "l49",
@@ -537,7 +537,7 @@ export const QUESTIONS: Question[] = [
     id: "c15",
     category: "ckhs",
     prompt: "建中橄欖球黑衫軍的隊服，靈感來自哪一支隊伍？",
-    options: ["南非跳羚", "紐西蘭全黑隊", "日本櫻花", "澳洲牆羊"],
+    options: ["南非跳羚", "紐西蘭全黑隊", "日本櫻花", "澳洲袋鼠隊"],
     correctIndex: 1,
     explanation: "早期校友以紐西蘭 All Blacks 為師，全黑上場，所以叫黑衫軍。",
   },
@@ -563,7 +563,7 @@ export const QUESTIONS: Question[] = [
     prompt: "《建中青年》是什麼？",
     options: ["校慶園遊會", "橄欖球校隊", "建中的校刊", "校歌的副歌"],
     correctIndex: 2,
-    explanation: "1950 年代就有的刊物。Alan 還記得裡面的逍遙集，跟不會印在菜單上的那碗麵。",
+    explanation: "1954 年創刊，中間停過，1958 年校慶復刊。笑話、文藝、校園話題都有。",
   },
   {
     id: "c19",
@@ -595,7 +595,7 @@ export const QUESTIONS: Question[] = [
     prompt: "班碼 48302 的「302」是什麼意思？",
     options: ["3 月 2 日", "座號 302", "高三 2 班", "社團編號 302"],
     correctIndex: 2,
-    explanation: "高三 2 班。Leo 在群裡也說，年底是 302 同學會。",
+    explanation: "高三 2 班。48 是屆別，302 是班級。",
   },
   {
     id: "t01",
@@ -675,7 +675,7 @@ export const QUESTIONS: Question[] = [
     prompt: "你們考進建中，考的是哪一種入學考試？",
     options: ["國中基本學力測驗", "高中聯考", "國中教育會考", "大學學測"],
     correctIndex: 1,
-    explanation: "基測 2001 年才登場，會考更晚。1994 年還是聯考分數，所以才有 634、631、605.5。",
+    explanation: "基測 2001 年才登場，會考更晚。1994 年入學還是聯考分數決勝負。",
   },
   {
     id: "t11",
@@ -699,7 +699,7 @@ export const QUESTIONS: Question[] = [
     prompt: "伍佰與 China Blue 的《浪人情歌》，是你們高幾那一年的專輯？",
     options: ["高三", "高一", "剛上大學", "國三"],
     correctIndex: 1,
-    explanation: "專輯 1994 年 12 月 16 日發行。高三那年則有《愛情的盡頭》。Gary 後來還用看伍佰當獎勵。",
+    explanation: "專輯 1994 年 12 月 16 日發行。高三那年六月則有《愛情的盡頭》。",
   },
   {
     id: "t14",
